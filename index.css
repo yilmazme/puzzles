@@ -1,0 +1,65 @@
+body {
+  background: darksalmon;
+  margin: 0px;
+}
+#container {
+  display: flex;
+  justify-content: space-between;
+  margin: 30px 20px auto 20px;
+}
+
+#container-left {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+#container-right {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  background-color: khaki;
+  border: 2px solid #343434;
+}
+
+.empty {
+  height: 160px;
+  width: 160px;
+  border: solid 1px rgb(190, 188, 188);
+}
+
+.hovered {
+  background: #444444;
+  border: 1px dashed black;
+}
+
+.invisible {
+  display: none;
+}
+#msg {
+  visibility: hidden;
+}
+#middle {
+  text-align: center;
+}
+a:link {
+  margin: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:visited {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a:hover {
+  color: darkred;
+}
+
+.active-page {
+  color: darkred !important;
+}
+#mylink {
+  position: fixed;
+  bottom: 30px;
+  left: 30px;
+}
